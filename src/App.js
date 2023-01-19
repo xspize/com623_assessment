@@ -1,18 +1,19 @@
-import logo from './logo.svg';
+import React from "react";
 import GlobalStyles from "./config/GlobalStyles";
-
+import {Switch,Route} from "react-router-dom";
+import Intro from "./Views/Intro";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <GlobalStyles />
-        <p>
-          Test, Hello!
-        </p>
-      </header>
-    </div>
+    <div>
+
+    <GlobalStyles />
+      <Switch>
+        <Route path="/">
+          <Intro />
+        </Route>
+      </Switch>
+</div>
   );
 }
 
