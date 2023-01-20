@@ -1,7 +1,10 @@
 import React from "react";
 import GlobalStyles from "./config/GlobalStyles";
 import {Switch,Route} from "react-router-dom";
+
 import Intro from "./Views/Intro";
+import Test from "./Views/test";
+import Notificationwarning from "./Views/notificationwarning";
 
 function App() {
   return (
@@ -9,9 +12,15 @@ function App() {
 
     <GlobalStyles />
       <Switch>
-        <Route path="/">
+
+        <Route exact path="/">
           <Intro />
         </Route>
+
+        <Route path="/Notification">
+          <Notificationwarning />
+         </Route>
+
       </Switch>
 </div>
   );
