@@ -1,7 +1,7 @@
-import React, { getUser } from "react";
-import IntroPng from '../Assets/intro.png'
+import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+
 
 
 
@@ -45,12 +45,12 @@ color: #000000;
                 <p>Enable notifications?</p>
                 <br></br>
                 <StyledLabel>
-                <StyledLink to="/"><input type="checkbox" input/></StyledLink>
+                <StyledLink to="/name"><input type="radio" input/></StyledLink>
                 Yes
                 </StyledLabel>
                 <p/>
                 <StyledLabel>
-                <StyledLink to="/"><input type="checkbox" input/></StyledLink>
+                <StyledLink to="/name"><input type="radio" input/></StyledLink>
                 No
                 </StyledLabel>
                 <br></br>

@@ -1,4 +1,4 @@
-import React, { getUser } from "react";
+import React from "react";
 import IntroPng from '../Assets/intro.png'
 import { Link } from "react-router-dom";
 import styled from "styled-components";

@@ -3,8 +3,8 @@ import GlobalStyles from "./config/GlobalStyles";
 import {Switch,Route} from "react-router-dom";
 
 import Intro from "./Views/Intro";
-import Test from "./Views/test";
 import Notificationwarning from "./Views/notificationwarning";
+import Name from "./Views/name";
 
 function App() {
   return (
@@ -20,6 +20,10 @@ function App() {
         <Route path="/Notification">
           <Notificationwarning />
          </Route>
+
+         <Route path="/Name">
+          <Name />
+         </Route>        
 
       </Switch>
 </div>
