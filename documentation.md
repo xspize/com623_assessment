@@ -98,6 +98,7 @@ Code snippet:
 
 One of the things that I wanted to do and did a lot of research which consumed a lot of my time was to simulate a mobile screen. I did it through CSS while knowing there are better ways but unfortunately I could not make it work.
 E.g. in the page Dashboard of my SPA  https://learned-trilogy-192223.web.app/dashboard (link for website hosted in firebase)
+
 The page is centred and there is even a background with the colour blue and seems to match what I wanted to do but it was made through a very simple way of just using background-color. An id is called and the code snippet is the one shown of the dash (the code above)
 Since it took me a lot of time to see through this, I gave up and just went with this option because it did what I wanted but not in the way I wished for. Because I wanted to have it in all pages without having to call for ids.
 The app does not contain a database because it is supposed to be a simple app without the use of database, although I did use a database for testing the class project I did not end up building one for my app as it is not necessary in my view because it is not supposed to store the user data. With that said though, another missed opportunity because of lack of awareness/knowledge or even distraction was that I did not manage to pass the input to another page like I planned to. For e.g. When the app asks for your name, it doesn't retrieve it with an Hello {name}.
