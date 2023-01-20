@@ -5,6 +5,9 @@ import {Switch,Route} from "react-router-dom";
 import Intro from "./Views/Intro";
 import Notificationwarning from "./Views/notificationwarning";
 import Name from "./Views/name";
+import Info from "./Views/info"
+import Complete from "./Views/Complete"
+import Dashboard from "./Views/dashboard"
 
 function App() {
   return (
@@ -23,7 +26,16 @@ function App() {
 
          <Route path="/Name">
           <Name />
-         </Route>        
+         </Route>     
+         <Route path="/Info">
+          <Info />
+         </Route> 
+         <Route path="/Complete">
+          <Complete />
+         </Route>   
+         <Route path="/Dashboard">
+          <Dashboard />
+         </Route>    
 
       </Switch>
 </div>

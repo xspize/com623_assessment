@@ -1,14 +1,12 @@
 import React from "react";
 import IconName from '../Assets/Icon.png'
 import { Link } from "react-router-dom";
-import styled from "styled-components";
 import Button from '../Assets/button.png'
 
 
 
 function Name(props) {
-    const StyledLink = styled(Link)`
-`;
+
 
     return (
         <div>
@@ -18,7 +16,7 @@ function Name(props) {
                 <br></br> 
                <textarea rows="2" cols="50"></textarea>
                <br></br>
-            <p><Link to="/"><img src = {Button}></img></Link></p>
+            <p><Link to="/Info"><img src = {Button} alt="Informative btn"></img></Link></p>
             </h1>
 
 
