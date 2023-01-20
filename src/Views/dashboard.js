@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styled from "styled-components";
 import Student from '../Assets/student.png'
 import Circleicon from '../Assets/plus-circle.png'
 
@@ -19,7 +18,7 @@ function Dashboard(props) {
 
                 <p><img src = {Student} alt="Student" id="imagestudent"></img></p>
 
-                <p><img src = {Circleicon} alt="circle plus" id="pluscircle"></img></p>
+                <p><Link to="/addtask"><img src = {Circleicon} alt="circle plus" id="pluscircle"></img></Link></p>
         </div>
         
     );

@@ -8,6 +8,7 @@ import Name from "./Views/name";
 import Info from "./Views/info"
 import Complete from "./Views/Complete"
 import Dashboard from "./Views/dashboard"
+import Addtask from "./Views/addtask"
 
 function App() {
   return (
@@ -35,7 +36,10 @@ function App() {
          </Route>   
          <Route path="/Dashboard">
           <Dashboard />
-         </Route>    
+         </Route>   
+         <Route path="/Addtask">
+          <Addtask />
+         </Route>   
 
       </Switch>
 </div>

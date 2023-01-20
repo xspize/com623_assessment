@@ -18,6 +18,17 @@ h1 {
     color: #000000;    
 }
 
+h2 {
+    color: rgba(0, 0, 0, 0.2);  
+    font-size: 18px;  
+}
+
+#labeltask{
+    text-align:left;
+    color: rgba(0, 0, 0, 0.2); 
+    font-weight: bold;
+}
+
 button {
     width: 268px;
     height: 50px;
@@ -42,6 +53,22 @@ button {
     width: 393px;
     height: 852px;
     background-color: #9ABBEC;
+    border: 1px solid;
+    border-color: #c2c2c2;
+
+}
+
+#checkmark{
+
+    margin-top: 70%;
+}
+
+#addtask{
+    width: 393px;
+    height: 852px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #c2c2c2;
 
 }
 
